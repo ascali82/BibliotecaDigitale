@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Esempio Biblioteca Digitale | Catalogo autori</title>
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome CSS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/social_links.css" rel="stylesheet">
+    <link href="../css/catalogo_filter.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+          <div class="container">
+            <div class='btn-toolbar float-right'>
+              <div class='btn-group'>
+                <a class="btn btn-sm btn-light" href="#">Login</a>
+              </div>
+            </div>
+            <h1 class="display-4 font-italic">Biblioteca Digitale</h1>
+            <p class="lead">Template mockup pre migrazione verso CMS con PHP</p>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Cataloghi
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="catalogo_autori.html">Catalogo per autore</a>
+                      <a class="dropdown-item" href="catalogo_opere.html">Catalogo per opera</a>
+                      <a class="dropdown-item" href="catalogo_periodi.html">Catalogo per periodo</a>
+                      <a class="dropdown-item" href="catalogo_generi.html">Catalogo per genere</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contatti</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Cerca nel sito" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </div>
+    <main role="main" class="container">
+      <div class="row">
+        <section class="col-md-8 blog-main">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Autori</li>
+            </ol>
+          </nav>
+          <div class="blog-post">
+              <h2 class="blog-post-title" itemprop="mainEntityOfPage" itemscope itemtype="http://schema.org/Person">Catalogo</h2>
+              <div class="row">
+                <div class="card card-primary filterable">
+                  <div class="card-header">
+                    <h3 class="card-title">Autori</h3>
+                    <div class="float-right">
+                      <button class="btn btn btn-dark btn-xs btn-filter"><i class="fas fa-filter"></i>Filtra</button>
+                  </div>
+                </div>
+                <div class="table-responsive">
+                  <table class="table table-hover">
+                    <thead>
+                      <tr class="filters">
+                        <th scope="col"><input type="text" class="form-control" placeholder="#ID" disabled></th>
+                        <th scope="col"><input type="text" class="form-control" placeholder="Nome" disabled></th>
+                        <th scope="col"><input type="text" class="form-control" placeholder="Periodo" disabled></th>
+                        <th scope="col"><input type="text" class="form-control" placeholder="Generi" disabled></th>
+                        <th scope="col"><input type="text" class="form-control" placeholder="Sottogeneri" disabled></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td><a href="caio_giulio_cesare.html">Caio Giulio Cesare</a></td>
+                        <td><a href="#" class="badge badge-primary">Periodo aureo o classico</a></td>
+                        <td><a href="#" class="badge badge-success">Prosa</a></td>
+                        <td><a href="#" class="badge badge-success">Commentarii</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td><a href="author.html">Autore 1</a></td>
+                        <td><a href="#" class="badge badge-primary">Periodo imperiale o argenteo</a></td>
+                        <td><a href="#" class="badge badge-success">Poesia</a></td>
+                        <td><a href="#" class="badge badge-success">Elegia</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td><a href="author.html">Autore 2</a></td>
+                        <td><a href="#" class="badge badge-primary">Periodo arcaico</a></td>
+                        <td><a href="#" class="badge badge-success">Teatro</a></td>
+                        <td><a href="#" class="badge badge-success">Commedia</a></td>
+                      </tr>
+                    </tbody>    
+                  </table>
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.blog-post -->
+
+
+
+        </section><!-- /.blog-main -->
+
+        <aside class="col-md-4 blog-sidebar">
+          <div class="p-3 mb-3 bg-light rounded">
+            <h4 class="font-italic">About</h4>
+            <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+          </div>
+
+          <div class="p-3">
+            <h4 class="font-italic">Opere simili</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#">Opera 3</a></li>
+              <li><a href="#">Opera 5</a></li>
+              <li><a href="#">Opera 7</a></li>
+              <li><a href="#">Opera 9</a></li>
+            </ol>
+          </div>
+
+          <div class="p-3">
+            <h4 class="font-italic">Opere coeve</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#">Opera 2</a></li>
+              <li><a href="#">Opera 4</a></li>
+              <li><a href="#">Opera 6</a></li>
+              <li><a href="#">Opera 8</a></li>
+            </ol>
+          </div>          
+
+        </aside><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </main><!-- /.container -->
+
+    <footer class="blog-footer">
+      <div class="container">
+        <div class="row text-left">
+          <div class="col-6 col-md">
+            <h5>Follow Us</h5>
+            <ul class="social-nav">
+              <li><a href="#" target="_blank" title="Twitter" rel="nofollow" class="twitter"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#" target="_blank" title="Facebook" rel="nofollow" class="facebook"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#" target="_blank" title="Google plus" rel="nofollow" class="google"><i class="fab fa-google-plus"></i></a></li>
+              <li><a href="#" target="_blank" title="Linkedin" rel="nofollow" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#" target="_blank" title="Pinterest" rel="nofollow" class="pinterest"><i class="fab fa-pinterest"></i></a></li>        
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Risorse</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+              <li><a class="text-muted" href="http://www.tei-c.org/index.xml" target="_blank">TEI</a></li>
+              <li><a class="text-muted" href="http://dublincore.org/" target="_blank">Dublin Core</a></li>
+              <li><a class="text-muted" href="http://schema.org/" target="_blank">Schema</a></li>
+              <li><a class="text-muted" href="https://developer.mozilla.org/it/docs/Web" target="_blank">Mozilla Developer Network</a></li>
+              <li><a class="text-muted" href="https://fontawesome.com/" target="_blank">Font Awesome</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="WebProjectPlan.html">Web Project Plan</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+              <li><a class="text-muted" href="sitemap.xml" target="_blank">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>     
+      <hr>
+      <p>Template built with <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://github.com/ascali82/">Alessandro Scali</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../js/filter.js"></script>
+
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </body>
+</html>
