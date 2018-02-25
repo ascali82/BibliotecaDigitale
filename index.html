@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,6 +8,18 @@
     <link rel="icon" href="../../../../favicon.ico">
 
     <title>Esempio Biblioteca Digitale</title>
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -49,10 +61,10 @@
                       Cataloghi
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="dropdown-item" href="sub_pages/catalogo_autori.html">Catalogo per autore</a>
+                      <a class="dropdown-item" href="sub_pages/catalogo_opere.html">Catalogo per opera</a>
+                      <a class="dropdown-item" href="sub_pages/catalogo_periodi.html">Catalogo per periodo</a>
+                      <a class="dropdown-item" href="sub_pages/catalogo_generi.html">Catalogo per genere</a>
                     </div>
                   </li>
                   <li class="nav-item">
@@ -71,67 +83,87 @@
     </div>
 
     <main role="main" class="container">
-      <div class="row mb-2">
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-primary">World</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">Catalogo per autore</a>
-              </h3>
-              <div class="mb-1 text-muted">Nov 12</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="card mb-3 rounded">
+                <div class="card-header font-italic font-weight-bold">
+                  <h5 class="card-title">Catalogo per autore</h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Lista completa degli autori caricati filtrabile per opera, periodo o genere letterario</p>
+                  <a href="sub_pages/catalogo_autori.html" class="btn btn-primary">Visualizza il catalogo</a>
+                </div>
+              </div>
             </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-success">Design</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">Catalogo per opera</a>
-              </h3>
-              <div class="mb-1 text-muted">Nov 11</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
+            <div class="col-sm-12 col-md-6">
+              <div class="card mb-3 rounded">
+                <div class="card-header font-italic font-weight-bold">
+                  <h5 class="card-title">Catalogo per opera</h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Lista completa delle opere caricate filtrabile per autore, periodo o genere letterario</p>
+                  <a href="sub_pages/catalogo_opere.html" class="btn btn-primary">Visualizza il catalogo</a>
+                </div>
+              </div>
             </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-primary">World</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">Catalogo per genere</a>
-              </h3>
-              <div class="mb-1 text-muted">Nov 12</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
+          </div><!-- /.row -->
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="card mb-3 rounded">
+                <div class="card-header font-italic font-weight-bold">
+                  <h5 class="card-title">Catalogo per periodo</h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Lista filtrabile dei periodi storici</p>
+                  <a href="sub_pages/catalogo_periodi.html" class="btn btn-primary">Visualizza il catalogo</a>
+                </div>
+              </div>
             </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-success">Design</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">Catalogo per periodo</a>
-              </h3>
-              <div class="mb-1 text-muted">Nov 11</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
+            <div class="col-sm-12 col-md-6">
+              <div class="card mb-3 rounded">
+                <div class="card-header font-italic font-weight-bold">
+                  <h5 class="card-title">Catalogo per genere</h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Lista filtrabile dei generi letterari</p>
+                  <a href="sub_pages/catalogo_generi.html" class="btn btn-primary">Visualizza il catalogo</a>
+                </div>
+              </div>
             </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-          </div>
-        </div>
-      </div>   
+          </div><!-- /.row -->
+      </div><!-- /.col -->
 
+      <aside class="col-md-4 blog-sidebar">
+        <div class="card mb-3 rounded border-danger">
+          <div class="card-header text-white bg-danger font-italic font-weight-bold"><h5>Avvisi</h5></div>
+            <div class="card-body">
+              <p class="card-text">Alcune funzionalità del sito potrebbero non essere attive al momento</p>
+          </div>
+        </div>
+        <div class="card text-white bg-success  mb-3 rounded">
+          <div class="card-header font-italic font-weight-bold">
+            <h5>Ultime opere caricate</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-action">Cras justo odio</li>
+            <li class="list-group-item list-group-item-action">Dapibus ac facilisis in</li>
+            <li class="list-group-item list-group-item-action">Vestibulum at eros</li>
+          </ul>
+        </div>
+        <div class="card text-white bg-success  mb-3 rounded">
+          <div class="card-header font-italic font-weight-bold">
+            <h5>Ultimi autori caricati</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-action">Cras justo odio</li>
+            <li class="list-group-item list-group-item-action">Dapibus ac facilisis in</li>
+            <li class="list-group-item list-group-item-action">Vestibulum at eros</li>
+          </ul>
+        </div>
+      </aside><!-- /.blog-sidebar -->  
+      </div><!-- /.row -->
     </main><!-- /.container -->
 
     <footer class="blog-footer">
@@ -148,21 +180,24 @@
             </ul>
           </div>
           <div class="col-6 col-md">
-            <h5>Resources</h5>
+            <h5>Risorse</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Resource</a></li>
-              <li><a class="text-muted" href="#">Resource name</a></li>
-              <li><a class="text-muted" href="#">Another resource</a></li>
-              <li><a class="text-muted" href="#">Final resource</a></li>
+              <li><a class="text-muted" href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+              <li><a class="text-muted" href="http://www.tei-c.org/index.xml" target="_blank">TEI</a></li>
+              <li><a class="text-muted" href="http://dublincore.org/" target="_blank">Dublin Core</a></li>
+              <li><a class="text-muted" href="http://schema.org/" target="_blank">Schema</a></li>
+              <li><a class="text-muted" href="https://developer.mozilla.org/it/docs/Web" target="_blank">Mozilla Developer Network</a></li>
+              <li><a class="text-muted" href="https://fontawesome.com/" target="_blank">Font Awesome</a></li>
             </ul>
           </div>
           <div class="col-6 col-md">
             <h5>About</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Team</a></li>
-              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="WebProjectPlan.html">Web Project Plan</a></li>
               <li><a class="text-muted" href="#">Privacy</a></li>
               <li><a class="text-muted" href="#">Terms</a></li>
+              <li><a class="text-muted" href="sitemap.xml" target="_blank">Sitemap</a></li>
             </ul>
           </div>
         </div>

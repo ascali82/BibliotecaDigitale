@@ -1,148 +1,402 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
 	<head>
-	    <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	    <meta name="description" content="">
-	    <meta name="author" content="">
-	    <link rel="icon" href="../../../../favicon.ico">
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="description" content="">
+	  <meta name="author" content="">
+	  <link rel="icon" href="../../../../favicon.ico">
 
-	    <title>Web Project Plan</title>
+	  <title>Web Project Plan</title>
 
-	    <!-- Bootstrap core CSS -->
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	  <!-- Bootstrap core CSS -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-	    <!-- Custom styles for this template -->
-	    <link href="css/starter-template.css" rel="stylesheet">
-  	</head>
+	  <!-- Custom styles for this template -->
+	  <link href="css/starter-template.css" rel="stylesheet">
 
-	<body>
+  </head>
+  
+  <body data-spy="scroll" data-target="#mainNav" data-offset="70">
+    <header>
+      <nav id="mainNav" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Biblioteca digitale</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#article1">Brief &#38; benchmark <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#article2">Struttura &#38; Layout</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#article3">Linguaggi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#article4">Collezione</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#article5">Strumenti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#article6">Bibliografia</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <h1>Web Project Plan</h1>
+      <p class="lead">Specifiche di sviluppo</p>
+    </header>
+    <main role="main" class="container">
+      <section>
+        <article id="article1">
+          <h2>Brief &#38; benchmark</h2>
+          <ul>
+              <li>
+              <h3>Obiettivi e finalità</h3>
+              <p>Le risorse culturali digitali, tanto born digital che prodotte da progetti e programmi di digitalizzazione, si inseriscono in un contesto informativo ampio, che comprende anzitutto le altre risorse culturali, della più varia tipologia; ma esse possono essere integrate anche con strumenti e risorse per la formazione di base e permanente, con strumenti e risorse culturali divulgative (edutainment), e impiegate per l’editoria, la ricerca ecc.</p>
+              <p>Per l’utente è indispensabile avere un accesso integrato che aggreghi in modo trasparente e renda disponibile con facilità il più ampio spettro possibile di risorse informative e culturali, e che consenta inoltre di interagire con un limitato numero di interfacce semplici e intuitive che agevolino la ricerca. Per offrire servizi qualificati, occorre realizzare la convergenza nel campo della rappresentazione digitale di oggetti culturali. Questo comporta, fra l’altro, l’esigenza di impegnarsi sul fronte dell’usabilità dei sistemi, in mancanza della quale gli investimenti in digitalizzazione rischiano di essere vanificati almeno in parte. Costringere l’utente a spostarsi fra servizi diversi, disomogenei per i dati offerti, per le funzionalità di ricerca, per le modalità di presentazione dei risultati, per le interfacce grafiche non solo equivale a non fornire complessivamente un buon servizio, anche in presenza di dati di qualità, ma potrebbe precludere la possibilità stessa di creare reali servizi di biblioteca digitale.</p>
+              <p>Il quadro di riferimento per la costruzione della biblioteca digitale è quello profondamente innovativo del contesto della rete, o networking. Letteralmente networking significa lavorare in rete, con un’enfasi che non è nella rete, come tecnologia e canale di comunicazione, ma nel lavorare, o meglio, collaborare insieme. Una grande opportunità offerta dalle nuove tecnologie dell’informazione e della comunicazione va infatti individuata soprattutto nel facilitare la cooperazione e l’integrazione: la mera applicazione delle nuove tecnologie senza che si attui una diversa organizzazione e con una prospettiva di automazione avanzata ma isolata, potrebbe vanificare i vantaggi per l’utente.</p>
+              <p>Le fasi di progettazione e controllo rappresentano l’infrastruttura organizzativa portante in ogni progetto di digitalizzazione; esse avranno tra gli obiettivi la razionalizzazione dell’uso delle risorse e porteranno al miglioramento dell’organizzazione.</p>
+              <p>Una nuova organizzazione è legata quindi all’architettura dell’informazione in rete, con una corretta progettazione di servizi condivisi e di servizi locali distribuiti. Un progetto di costruzione della biblioteca digitale deve avere fra i compiti primari definire gli aspetti di innovazione organizzativa per garantire un servizio integrato all’utente. L’interoperabilità può ormai essere ritenuta un requisito di base che ogni iniziativa nel campo della creazione di contenuti culturali digitali deve prendere in attento esame. La chiave per conseguire l’interoperabilità è assicurare un approccio coerente al ciclo di vita delle risorse digitali.</p>
+              <p>È importante che gli utenti possano accedere direttamente alla più ampia gamma di contenuti, indipendentemente dal fatto che questi siano stati realizzati da progetti e programmi di finanziamento diversi. Dovrebbe essere possibile reperire i contenuti digitali e interagire con essi in maniera agile e intuitiva, usarli con facilità senza l’esigenza di strumenti specializzati e gestirli efficacemente.</p>
+              <p>È importante, inoltre, che i materiali siano accessibili al più vasto pubblico e che vengano messi a disposizione attraverso l’impiego di standard aperti e formati non proprietari. Se si produce una risorsa destinata ad avere largo impiego, sarà necessario prevedere un accesso multilingue e garantire l’accessibilità a cittadini con varie disabilità.</p>
+              <p>Nell’epoca delle reti, è importante poter stabilire con certezza l’identità dei contenuti e dei progetti (e, quando necessario, degli utenti); proteggere i diritti di proprietà intellettuale e il diritto alla riservatezza; poter determinare l’integrità e l’autenticità delle risorse. Le risorse digitalizzate dovrebbero essere identificate senza ambiguità e dovrebbero essere puntabili in maniera univoca direttamente dal browser web di un utente. È importante, per esempio, che l’utente finale abbia la possibilità di citare esattamente e in modo attendibile una singola risorsa, anziché dover indicare il collegamento al sito web di un intero progetto.</p>
+              <p>Inoltre, revisioni e versioni diverse della risorsa digitale devono essere identificate chiaramente. I progetti dovrebbero far uso a tale scopo dello Uniform Resource Identifier (URI) e dovrebbero garantire che l’URI sia persistente. L’URI adottata dovrebbe essere la più logica, breve e semplice da ricordare e dovrebbe fare riferimento all’istituzione culturale. Tale URI non dovrebbe includere informazioni sul formato del file, la tecnologia del server, la struttura organizzativa del servizio di provider o qualunque altra informazione che verosimilmente possa variare nel corso del ciclo di vita della risorsa.</p>
+              <p>La decisione riguardo le scelte di nomenclatura delle risorse digitali e delle collezioni digitali deve essere prevista già nella fase di pianificazione della digitalizzazione. A questo scopo, dovrebbero essere evitate nomenclature generiche di singole risorse digitali e di organizzazioni di collezioni, come “Immagine1.html”, “Archivo1.html”, ma si dovrebbe sempre adottare un nome significativo. L’uso di convenzioni univoche per nominare le risorse digitali e la struttura delle collezioni digitali (directory) sono elementi chiave per una buona organizzazione della collezione digitale, che risulti facile da navigare per i visitatori. Collezioni digitali ben organizzate rendono inoltre più facile la gestione da parte dei responsabili, ai fini della conservazione a lungo termine delle statistiche e della gestione dei diritti di proprietà intellettuale.</p>
+              <p>Quando si producono delle risorse digitali si dovrebbero impiegare formati standard aperti, per massimizzarne l’accesso. L’impiego di formati aperti favorisce l’interoperabilità, garantendo la riusabilità delle risorse, che possono essere create e modificate da un gran numero di applicazioni.</p>
+              <p>I siti web devono essere accessibili per un’ampia gamma di browser e dispositivi hardware.</p>
+              <p>Il progetto di sito che presentiamo, oltre a rappresentare un possibile esempio di <b>biblioteca digitale</b> e di conseguenza consentire l'accesso alle risorse digitali, nasce per essere una <b>piattaforma di collaborazione online</b>.</p>
+              <p>Il mockup è un <i>case study</i> incentrato sulla letteratura latina, ma la struttura può essere modificata facilmente per accogliere risorse librarie di qualsiasi tipo, periodo o lingua, oltre che per diventare, in virtù del sistema di categorizzazione interno, un "manuale" di letteratura.</p>
+              <p>La possibilità di registrazione al sito potrà consentire, una volta effettuata la migrazione verso un <b>CMS che supporti PHP</b> (es. <i>Wordpress</i>), l'accesso a una home personale dinamica in funzione del ruolo di ciascun utente all'interno del sito stesso.</p>
+            </li>
+            <li>
+              <h3>Utente tipo</h3>
+              <p>L'architettura cosi definita della BDI prefigura diverse tipologie di utenza. L'utenza si può distinguere da un lato per il tipo connessione (localizzata o remota) alla rete BDI dall'altro per la tipologia del servizio che viene fornito.
+              Possiamo così parlare di:
+              a) Utenza remota
+              Sono quelle utenze che sono connesse alla BDI tramite una tipica connessione internet (dial-up, ADSL etc). Tra queste possiamo distinguere le utenze in: 
+              Utente istituzionale: sono le stesse Biblioteche che appartengono alla community 
+              Utenza intermediaria: Biblioteche, Istituzioni culturali, enti locali, archivi e musei. Questa deve essere intesa come un servizio fornito dalle biblioteche all'utente 
+              Utenza privata : accesso pubblico (cittadini, studiosi) alle risorse pubbliche della BDI 
+              b) Utenza localizzata
+              Sono quelle utenze che sono connesse tramite il canale privilegiato rappresentato dalla rete della BDI. Tra queste possiamo distinguere:
+              Utente istituzionale: sono le stesse Biblioteche che appartengono alla community.
+              Utente intermediario: Biblioteche, Istituzioni culturali, enti locali, archivi e musei. Questa deve essere intesa come un servizio fornito dalle biblioteche all'utente</p>
+            </li>
+            <li>
+              <h3>Competitors</h3>
+                <ol>
+                  <li>
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h4 class="card-title">Biblioteca italiana</h4>
+                        <a href="images/biblita.png" target="_blank">
+                          <img class="img-thumbnail rounded float-right" src="images/biblita.png" alt="Biblioteca Italiana Home Page" width="200" height="200">
+                        </a>                        
+                        <p class="card-text">Biblioteca Italiana (BibIt) è una biblioteca digitale di testi rappresentativi della tradizione culturale e letteraria italiana dal Medioevo al Novecento, promossa dal Centro interuniversitario Biblioteca italiana telematica (CiBit), e gestita dalla sua unità attiva presso l'Università di Roma La Sapienza, con il supporto del progetto Biblioteca digitale italiana del Ministero per i beni e le attività culturali.</p>
+                        <p>Sono presenti i testi più significativi appartenenti a tutti i generi della letteratura italiana (Narrativa, Letteratura teatrale, Documenti, Lettere ed epistolari, Memorialistica, Poesia, Oratoria, Testi storici e storiografici, Traduzioni e volgarizzamenti, Trattati).</p>
+                        <p>Tutti i testi di Biblioteca Italiana sono stati digitalizzati in edizione integrale a partire dalle più autorevoli edizioni a stampa, sia moderne sia antiche, e codificati in formato XML secondo lo schema TEI . Ciò consente all’utente di avere per ciascuna opera l’accesso diretto al testo.</p>
+                        <p>Ad oggi Biblioteca Italiana ha pubblicato oltre 1700 opere, tutte liberamente accessibili e scaricabili.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h4 class="card-title">Oxford Text Archive</h4>
+                        <a href="images/oxford.png" target="_blank">
+                          <img class="img-thumbnail rounded float-left mr-2" src="images/oxford.png" alt="Oxford Text Archive Homepage" width="200" height="200">
+                        </a>                       
+                        <p class="card-text">The Oxford Text Archive develops, collects, catalogues and preserves electronic literary and linguistic resources for use in Higher Education, in research, teaching and learning. The OTA also gives advice on the creation and use of these resources, and is involved in the development of standards and infrastructure for electronic language resources.</p>
+                      </div>
+                    </div>
+                  </li>
+                </ol>
+            </li>
+          </ul>
+        </article>
+        <article id="article2">
+          <h2>Struttura &#38; Layout</h2>
+            <ul>
+              <li>
+                <h3>Mappa dei concetti</h3>
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">Web Project Plan</a>
+                <p>Nella BD saranno trattate diverse fonti informative, di tipo tradizionale ed elettronico:
+                · il materiale documentario su vari supporti posseduti dalle biblioteche,
+                · altro materiale di tipo tradizionale messo a disposizione in rete,
+                · le risorse elettroniche 'originali' a cui si vuole garantire l'accesso,
+                · collezioni espressamente digitalizzate all'interno del progetto stesso.
+                La scelta dei documenti da trattare deve rispondere a criteri di vario tipo, come:
+                · l’unicità delle raccolte,
+                · la valorizzazione del materiale di pregio,
+                · la rispondenza ad ambiti di studio ampiamente diffusi,
+                · l'esigenza di conservazione.</p>
+                <p>Particolare attenzione andrà posta al tipo di supporto e alla tecnologia da utilizzare per la messa a disposizione dei documenti: altre tecnologie e supporti, come fonti elettroniche di varia natura o la stampa tradizionale su carta dovranno coesistere.</p>                   
+              </li>
+              <li>
+                <h3>Schema delle dipendenze</h3>
+                <a href="images/mappa1.png" target="_blank">
+                  <img class="img-thumbnail rounded float-right" src="images/mappa1.png" alt="mappa1" width="200" height="200">
+                </a>                
+                <p>Come si può vedere dalla mappa la struttura del sito vede una Home principale dalla quale si diramano le due sub page principali (Cataloghi e Autori). Ogni pagina Autore è gerarchicamente superiore alle opere di quel determinato autore. Sia le pagine Autore che le pagine Opera sono legate unidirezionalmente alla rispettiva pagina di catalogo e bidirezionalmente ai cataloghi per periodo e per genere. Una distinzione importante che va fatta è in riferimento al tipo di dati. Le pagine Autore e Opera sono da intendersi come articoli e le rispettive pagine catalogo dovranno popolarsi dinamicamente con un loop di pagina che cerchi tra gli articoli caricati quelli corrispondenti. Il catalogo per genere letterario, considerato come elemento che necessità di una struttura gerarchica (nel caso specifico della letteratura latina si possono, per esempio, identificare tre macro generi - prosa, teatro, poesia - ulteriormente suddivisibili in altri sottogeneri - storiografia, commedia, tragedia, elegia, etc.</p>
+              </li>
+              <li>
+                <h3>Wireframe</h3>
+                <p>La struttura del sito è basata sul grid di Bootstrap e, nella forma base, è comune a tutte le pagine.</p>
+                <ol>
+                  <li>
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h4 class="card-title">Header</h4>
+                        <a href="images/header.png" target="_blank">
+                          <img class="img-thumbnail rounded float-right" src="images/header.png" alt="header" width="200" height="200">
+                        </a>                        
+                        <p class="card-text">L'Header, comune a tutte le pagine, è costituito da un <a href="https://getbootstrap.com/docs/4.0/components/jumbotron/" target="_blank">Jumbotron</a> che ospita heading (h1) e description, il link alla pagina di login e il menù di navigazione primaria comprensivo di casella di ricerca. Il background è customizzabile con l'inserimento di loghi, immagini di sfondo o transizioni CSS3.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h4 class="card-title">Footer</h4>
+                        <a href="images/footer.png" target="_blank">
+                          <img class="img-thumbnail rounded float-left mr-2" src="images/footer.png" alt="footer" width="200" height="200">
+                        </a>                       
+                        <p class="card-text">Il Footer, comune a tutte le pagine, è costituito da due sezioni principali. La prima di esse ospita tre menù di navigazione: il primo destinato ai collegamenti social, il secondo ai link relativi alle risorse utilizzate per lo sviluppo e il terzo informazioni relative al sito (sitemap, privacy, etc.). La seconda sezione, divisa dalla precedente tramite un separatore, ospita il copyright con il link alla pagina dello sviluppatore e un link al top della pagina per evitare lo scroll all'indietro degli utenti.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h4 class="card-title">Sidebar</h4>
+                        <img class="img-thumbnail rounded float-right" src="images/sidebar.png" alt="sidebar" width="200" height="200">
+                          <p class="card-text">La sidebar è concepita come elemento dinamico in relazione al contenuto della sezione main di ogni pagina del sito. Quella ritratta nell'immagine a lato è la sidebar della HomePage (in una versione essenziale) e presenta tre box: il primo destinato ad annunci o comunicazioni e gli altri due, dinamici, sono quick link diretti agli ultimi elementi caricati. Nelle sub-pages i box conterranno riferimenti correlati ai contenuti del main.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h4 class="card-title">Main</h4>
+                        <ol>
+                          <li>
+                            <div class="card mb-3">
+                              <div class="card-body">
+                                <h5 class="card-title">Home Page</h5>
+                                  <img class="img-thumbnail rounded float-left mr-2" src="images/main_home.png" alt="main home" width="200" height="200">
+                                  <p class="card-text">La sidebar è concepita come elemento dinamico in relazione al contenuto della sezione main di ogni pagina del sito. Quella ritratta nell'immagine a lato è la sidebar della HomePage (in una versione essenziale) e presenta tre box: il primo destinato ad annunci o comunicazioni e gli altri due, dinamici, sono quick link diretti agli ultimi elementi caricati. Nelle sub-pages i box conterranno riferimenti correlati ai contenuti del main.</p>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="card mb-3">
+                              <div class="card-body">
+                                <h5 class="card-title">Pagine Catalogo Autori e Opere</h5>                            
+                                  <img class="img-thumbnail rounded float-right" src="images/main_autori.png" alt="sidebar" width="200" height="200">
+                                  <p class="card-text">La sidebar è concepita come elemento dinamico in relazione al contenuto della sezione main di ogni pagina del sito. Quella ritratta nell'immagine a lato è la sidebar della HomePage (in una versione essenziale) e presenta tre box: il primo destinato ad annunci o comunicazioni e gli altri due, dinamici, sono quick link diretti agli ultimi elementi caricati. Nelle sub-pages i box conterranno riferimenti correlati ai contenuti del main.</p>
+                              </div>
+                            </div>                                  
+                          </li>
+                          <li>
+                            <div class="card mb-3">
+                              <div class="card-body">
+                                <h5 class="card-title">Pagine Catalogo Periodi e Generi</h5>                            
+                                  <img class="img-thumbnail rounded float-left mr-2" src="images/main_home.png" alt="main home" width="200" height="200">
+                                  <p class="card-text">La sidebar è concepita come elemento dinamico in relazione al contenuto della sezione main di ogni pagina del sito. Quella ritratta nell'immagine a lato è la sidebar della HomePage (in una versione essenziale) e presenta tre box: il primo destinato ad annunci o comunicazioni e gli altri due, dinamici, sono quick link diretti agli ultimi elementi caricati. Nelle sub-pages i box conterranno riferimenti correlati ai contenuti del main.</p>
+                              </div>
+                            </div>                                  
+                          </li>
+                          <li>
+                            <div class="card mb-3">
+                              <div class="card-body">
+                                <h5 class="card-title">Pagine Autore</h5>                            
+                                  <img class="img-thumbnail rounded float-right" src="images/main_autore.png" alt="main home" width="200" height="200">
+                                  <p class="card-text">La sidebar è concepita come elemento dinamico in relazione al contenuto della sezione main di ogni pagina del sito. Quella ritratta nell'immagine a lato è la sidebar della HomePage (in una versione essenziale) e presenta tre box: il primo destinato ad annunci o comunicazioni e gli altri due, dinamici, sono quick link diretti agli ultimi elementi caricati. Nelle sub-pages i box conterranno riferimenti correlati ai contenuti del main.</p>
+                              </div>
+                            </div>                                  
+                          </li>
+                          <li>
+                            <div class="card mb-3">
+                              <div class="card-body">
+                                <h5 class="card-title">Pagine Opera</h5>                            
+                                  <img class="img-thumbnail rounded float-left mr-2" src="images/main_home.png" alt="main home" width="200" height="200">
+                                  <p class="card-text">La sidebar è concepita come elemento dinamico in relazione al contenuto della sezione main di ogni pagina del sito. Quella ritratta nell'immagine a lato è la sidebar della HomePage (in una versione essenziale) e presenta tre box: il primo destinato ad annunci o comunicazioni e gli altri due, dinamici, sono quick link diretti agli ultimi elementi caricati. Nelle sub-pages i box conterranno riferimenti correlati ai contenuti del main.</p>
+                              </div>
+                            </div>                                  
+                          </li>                          
+                        </ol>
+                      </div>
+                    </div>
+                  </li>                                      
+                </ol>
+              <li>
+                <h3>Usabilità, comunicazione e web design</h3>
+                <p>Le linee guida per una buona progettazione del portale tematico dovrebbero soddisfare una serie di principi di comunicazione che possono essere così riassunti:
+                q Gli utenti devono trovare le informazioni rapidamente.
+                q Gli elementi informativi devono essere rappresentati in modo strutturato
+                q Quando gli utenti non conoscono esattamente le informazioni da ricercare devono poter navigare velocemente ed accedere alle informazione in maniera logica
+                q Il sito deve avere una omogeneità grafica
+                q Devono essere implementati dei criteri di accessibilità per l'accesso da parte di particolari categorie di utenza (es. disabili, infanzia, normale ecc.)
+                q Si deve prevedere una gestione multilingua del sito
+                q Devono essere rispettati gli standard (W3C, IETF)</p>
+                <p>Le informazioni sui progetti e le risorse da essi prodotte devono essere accessibili da browser diversi e da sistemi hardware, programmi automatici e utenti finali con caratteristiche diverse. I siti web devono essere accessibili per un’ampia gamma di browser e dispositivi hardware (per esempio, Personal Digital Assistants [PDA] e PC). I siti web devono essere usabili per browser che supportano le raccomandazioni W3C, come HTML/XHTML, Cascading Style Sheets (CSS) e il Document Object Model (DOM). I progetti che fanno uso di formati proprietari di file e di tecnologie browser plug-in devono garantire che il loro contenuto sia usabile anche per browser sprovvisti di plug-in. Di conseguenza, l’impiego di tecnologie come Javascript o Macromedia Flash nella navigazione del sito deve essere preso in attenta considerazione. L’aspetto di un sito web dovrebbe essere controllato attraverso l’uso di fogli di stile in linea con l’architettura W3C e le raccomandazioni per l’accessibilità. Dovrebbe essere usata l’ultima versione di Cascading Style Sheets (CSS) raccomandata dal W3C (attualmente CSS 2) sebbene non tutte le caratteristiche definite dal CSS 2 siano usabili perché non ancora sufficientemente supportate da parte dei browser.</p>
+                <p>Per conseguire l’accessibilità dei contenuti di un sito web, i progetti devono costantemente fare riferimento alle linee guida definite nell’ambito dell’iniziativa WAI (Web Accessibility Initiative) del W3C. Il WAI tratta dell’accessibilità del Web in senso ampio, cioè non solo con riguardo ai contenuti ma anche agli strumenti con i quali le pagine web vengono realizzate, ai browser e più in generale alle tecnologie per l’accesso al Web. I progetti devono raggiungere la conformità al livello WAI A; dovrebbero mirare a raggiungere la conformità al livello WAI AA. In relazione all’accessibilità dei contenuti, sono di particolare importanza le Web Content Accessibility Guidelines (WCAG) versione 1.0, pubblicate il 5 maggio 1999. Si tratta di 14 linee guida, in ciascuna delle quali sono presentati scenari tipici che possono creare difficoltà per utenti con disabilità.</p>
+                <p>Per soddisfare i principi sopra elencati vengono proposti i seguenti suggerimenti progettuali:
+                a) Struttura del sito.
+                  La prima pagina deve consentire di valutare immediatamente il contenuto informativo di tutto il sito
+                b) Navigazione
+                Le pagine successive dovranno essere collegate in modo da formare percorsi logici di navigazione. E' raccomandabile fornire una proposta del percorso di lettura nel caso l'utente voglia solamente sfogliare il sito. Gli strumenti di navigazione (link, bottoni, banner, trova, ecc. )devono essere sempre ben visibili e possibilmente conservare la stessa posizione in tutte le pagine e consentire di tornare alla home page, alla prima pagina della sezione corrente, al top della pagina consultata, di accedere alla pagina successiva del percorso di navigazione, di consultare la mappa del sito
+                c) Gestione della Grafica/Multimedia
+                Oltre ad una veste grafica unitaria si raccomanda l'utilizzo di immagini e sfondi "leggeri" tali da evitare tempi di attesa eccessivi. Per ciò che riguarda le nuove tecnologie (formato immagini, streaming video, ecc) sarà necessario mantenere; quanto possibile, la compatibilità con le versioni meno recenti dei browser più diffusi. In sostanza anche per quanto riguarda la grafica il concetto di accessibilità deve avere la precedenza
+              </p>
+                <p>La struttura delle pagine è coerente e comune a tutte così come lo stile applicato. Sono stati integrati diversi box informativi diversificati in base al contenuto della sezione main di ogni pagina.</p>
+              </li>
+            </ul>
+          </article>
+          <article id="article3">
+            <h2>Linguaggi</h2>
+              <ul>
+                <li>
+                  <h3>HTML</h3>
+                  <p>La versione HTML utilizzata in fase di sviluppo è HTML 5. Nello specifico, sfruttando il framework Bootstrap, si è data importanza agli elementi semantici nella struttura della pagina utilizzando i tag header, main, section, article, footer, aside.</p>
+                </li>
+                <li>
+                  <h3>CSS</h3>
+                  <p>La versione di CSS utilizzata in fase di sviluppo è la 3 come da integrazione nel framework Bootstrap. </p>
+                </li>
+                <li>
+                  <h3>Javascript e JQuery</h3>
+                  <p>La versione di JQuery utilizzata è la jquery-3.2.1.slim, caricata da cdn, mentre per Javascript si è utilizzato la versione integrata nel framework Bootstrap. Entrambi sono stati necessari per la gestione degli elementi DOM e per integrare funzionalità come il filtro per elementi nelle pagine catalogo. Per lo sviluppo di questa pagina si è utilizzato anche il sistema <a href="https://getbootstrap.com/docs/4.0/components/scrollspy/" target="_blank">Scrollspy</a> per facilitare la navigazione delle sezioni.</p>
+                </li>
+                <li>
+                  <h3>XML</h3>
+                  <p>La versione di XML utilizzata è la 1.0 per la creazione della sitemap e per la descrizione degli item della collezione digitale.</p>
+                </li>
+                <li>
+                  <h3>Schema e Dublin Core</h3>
+                  <p>Per la descrizione delle pagine si è utilizzato il sistema microdata di Google seguendo i modelli della pagina <a href="http://schema.org/" target="_blank">Schema.org</a>.</p>
+                  <p>La versione di Dublin Core utilizzata è la 1.1 per la descrizione dei singoli item.</p>
+                  <p>Sono stati inseriti i seguenti identificatori:
+                    <pre>
+                      <code>
+                        &#60!-- Dublin Core Meta --&#62
+                        &#60meta name="DC.Title" content="<b>Titolo dell'opera</b>" /&#62
+                        &#60meta name="DC.Creator" content="<b>Autore dell'opera</b>" /&#62
+                        &#60meta name="DC.Subject" content="<b>Abstract dell'opera</b>" /&#62
+                        &#60meta name="DC.Description" content="<b>Descrizione dell'opera</b>" /&#62
+                        &#60meta name="DC.Publisher" content="<b>Il sito che ospita l'item</b>" /&#62
+                        &#60meta name="DC.Contributor" content="<b>Il responsabile materiale del caricamento dell'opera</b>" /&#62
+                        &#60meta name="DC.Date" content="<b>Data del caricamento online dell'opera</b>" /&#62
+                        &#60meta name="DC.Type" content="<b>Categorie, Tag e Tassonomie attribuite all'opera</b>" /&#62
+                        &#60meta name="DC.Format" content="<b>Formati nei quali l'opera è resa disponibile online</b>" /&#62
+                        &#60meta name="DC.Identifier" scheme="DCTERMS.URI" content="<b>URI dell'opera</b>" /&#62
+                        &#60meta name="DC.Language" content="<b>Lingua dell'opera</b>" /&#62
+                        &#60meta name="DC.Relation" content="<b>Opere correlate</b>" /&#62
+                        &#60meta name="DC.Rights" content="<b>URL licensa CC</b>" /&#62
+                        &#60!-- Dublin Core Meta End --&#62
+                      </code>
+                    </pre>
+                  </p>
+                </li>
+                <li>
+                  <h3><del>PHP</del></h3>
+                  <p>In una fase successiva questo mockup verrà integrato in PHP utilizzando un CMS.</p>
+                </li>                
+            </ul>
+          </article>
+          <article id="article4">
+            <h2>Collezione</h2>
+            <ul>
+              <li>
+                <h3>Descrizione</h3>
+                <p>Nel mondo bibliotecario e dell’informazione più in generale, l’aspetto descrittivo dei supporti e la loro valenza informativa in termini di documentazione dei contenuti, hanno svolto da sempre un ruolo di centrale importanza; si sono così andate definendo regole e standard sia per quella che comunemente si chiama la descrizione bibliografica sia per quella che si definisce genericamente come descrizione analitica.
+                La prima destinata a descrivere il “contenitore”, l’altra il contenuto. La prima funzione è assolta con l’impiego di regole standard ormai consolidate a livello internazionale (norme descrittive e di scelta degli elementi) e la seconda tramite forme di classificazione del sapere precoordinate (codici di classificazione vari, schemi di soggettazione) o postcoordinate (thesauri).</p>
+                <p>A fianco di questi standard, altre modalità di descrizione di aspetti e fenomeni collaterali sono state definite per finalità particolari; tra esse, quella di documentare gli aspetti materiali della conservazione (stato presente, restauri, ecc.) e della destinazione d’uso.
+                Nel mondo digitale questi aspetti sono ancora più legati fra loro che per i supporti tradizionali. Ciò è dovuto anche ad un diverso approccio al problema dell’informazione, ma soprattutto è dato dalla necessità di mantenere l’oggetto aggiornato e fruibile in termini tecnologici, considerato che la sua maggiore disponibilità in forme standard paga lo scotto di una minore stabilità nel tempo.
+                La definizione dei Metadati come schemi di riferimento per risolvere (almeno si spera) tali problemi nasce da queste considerazioni.</p>
+                <p>In quest’ottica, visto e considerato che da sempre la descrizione e l’analisi degli oggetti informativi si è fatta ed in modo prevalentemente standard, l’individuazione di norme ulteriori atte a definire la “materialità” degli oggetti digitali e gli aspetti che ne garantiscano la permanenza e la fruibilità nel tempo, è diventata un fattore critico.</p>
+                <p>Il trattamento delle risorse elettroniche comprende dunque molteplici funzioni: oltre alla descrizione per consentire l'identificazione, il recupero e l'accesso, occorre permettere la valutazione e la selezione non solo sulla base del contenuto, ma anche delle condizioni di uso, è necessario gestire le collezioni e i diritti di proprietà e quindi le transazioni relative, assicurando inoltre la conservazione digitale dei contenuti e dei supporti.
+                Per tutte queste operazioni si richiedono dati strutturati e quindi metadati.
+                Una gamma così ampia di operazioni necessita di informazioni specifiche, spesso difficili da recuperare, che può solo basarsi su un lavoro di integrazione non solo fra diversi attori, ma anche fra servizi, strumenti tecnologici e meccanismi amministrativi che finora, nel trattamento del materiale tradizionale, erano separati fra loro e comunque meno complessi da gestire perché già consolidati. Per ognuna delle tre funzioni fondamentali vengono qui fornite specifiche di massima sui metadati e raccomandazioni per la loro creazione e gestione.</p>
+                <p>Prima di affrontare il problema del modo in cui descrivere le risorse e garantire operativamente le funzioni ad esse collegate, occorre fare una premessa: la questione essenziale è quali risorse descrivere piuttosto che il modo in cui catalogarle. Esattamente come avviene per lo sviluppo delle collezioni tradizionali e per la loro gestione, un progetto di biblioteca digitale deve operare una scelta sul materiale da trattare e questo avverrà sulla base del tipo di istituzione coinvolta, della domanda degli utenti e delle possibilità concrete che si hanno a disposizione. Le opzioni di descrizione e gestione sono conseguenti a questa scelta di base, da cui derivano caratteristiche e dimensioni del servizio che si vuole implementare.</p>
+                <p>Nei casi di queste disponibilità, anche il ricorso all'uso di Dublin core per descrivere le risorse elettroniche memorizzando gli elementi in una base separata, ha la sua validità, per la semplicità ed economicità dell'analisi e per la possibilità di integrare altri schemi di metadati usati in applicazioni diverse. Il vantaggio è costituito anche dalla possibilità di utilizzare i generatori automatici di metadati, aggiornando e completando la descrizione in modo lineare, facendo uso di una procedura di immissione e controllo dei dati costruita sulle specifiche dei 15 elementi.</p>
+                <p>In via di principio Dublin core bene si presta alle funzioni di trovare (prescrivendo elementi significativi come titolo, creatore, creatore secondario, soggetto tramite i quali l'utente può cercare una risorsa) e di ottenere (per la presenza di un indirizzo nell'elemento identificatore).</p>
+              </li>
+              <li>
+                <h3>Specimen</h3>
+                <p>Uno specimen è disponibile a <a href="sub_pages/de_bello_gallico.html">questa pagina.</a></p>
+              </li>              
+            </ul>         
+          </article>
+          <article id="article5">
+            <h2>Strumenti</h2>
+            <ul>
+              <li>
+                <h3>Conservazione</h3>
+                <p>Indipendentemente dalla tecnica usata per garantire la conservazione e l'uso futuro delle risorse digitali è necessario documentare in modo chiaro come realizzare queste funzioni, e quindi definire quali sono le caratteristiche del formato, del software e delle apparecchiature per utilizzare nel tempo una determinata risorsa. Le tecniche sono essenzialmente tre, a cui corrispondono altrettante esigenze descrittive:
+                <ul>
+                  <li>la conservazione dell'oggetto e della tecnologia, quindi del software e dell'hardware necessari per l'interpretazione e l'uso. Tale metodo è praticabile solo in una prospettiva a breve termine e necessita di dati precisi, di tipo descrittivo e tecnico, compresa l'indicazione della possibile durata e validità della soluzione tecnologica adottata.</li>
+                  <li>l'emulazione del software originale in modo tale che la risorsa sia accessibile tramite emulatori che simulano il funzionamento di hardware e software obsoleti. Questo comporta che siano indicati i formalismi sui requisiti di funzionamento e si rendono necessarie quindi spiegazioni leggibili anche ad occhio nudo. Ciò è sempre più richiesto per l'uso crescente di grafici, ipertesti, oggetti multimediali che rendono questi oggetti dipendenti da software specifici per la loro interpretazione.</li>
+                  <li>la migrazione periodica di informazioni digitali da una generazione tecnologica ad un'altra. Questa è una delle tecniche più sperimentate e può comportare qualche perdita di funzionalità e accuratezza. Anche al fine di ridurre tali limitazioni è necessario che i record relativi alle risorse conservino traccia delle relazioni con l'ambiente del software originale. Tali relazioni devono essere ricostruibili e sono quindi necessari metadati che documentino la storia della migrazione di un oggetto digitale per consentire in futuro di ricostruire o quanto meno comprendere l'ambiente tecnologico in cui la risorsa è stata creata.</li>
+                </ul>
+                </p>
+              </li>
+              <li>
+                <h3>Arricchimento</h3>
+                <p>Come già detto l'interfaccia utente sarà costituita da un semplice browser. Questa soluzione oltre ad allargare la base delle utenze della BDI garantisce una facile integrazione con quelle stazioni di lavoro eventualmente già presenti nelle Biblioteche. All'interno delle utenze andranno definiti dei profili d'accesso tali da garantire l'autenticazione degli utenti che accedono ai servizi riservati e/o a pagamento.
+                L'accesso al sito della BDI si traduce quindi nell'accesso al portale della BDI. Per ciò che riguarda gli aspetti di accessibilità la progettazione di un sito istituzionale non può non recepire le raccomandazioni enunciate nel documento "Le linee guida per l'accessibilità ai contenuti Web" del 5 maggio 1999 del consorzio W3C (versione italiana reperibile sul sito http://www.aib.it/aib/cwai/WAI-trad.htm.) Si dovranno quindi prevedere percorsi diversificati definendo diverse tipologia d’interfaccia utente permettendo in particolare la navigazione a categorie protette (accessibilità per disabili).</p>
+              </li>
+              <li>
+                <h3>Valorizzazione</h3>
+                <p>Uno dei punti deboli delle attuali strutture preposte alle biblioteche è la scarsa capacità comunicativa. Si rende necessario, dunque, instaurare un colloquio continuo con l'utenza potenziale dei servizi proposti. Non solo attraverso campagne pubblicitarie ma anche e soprattutto una capillare e costante informazione, tutta rigorosamente digitale, sulle iniziative in corso o concluse, progetti e varie.
+                Il portale sarà il naturale veicolo di questo flusso informativo.</p>
+                <p>La presenza su social network, mailing-list, newsgroup, gruppi utenti completerà il ciclo.
+                La promozione delle iniziative in fase di sviluppo o disponibili dovrà passare attraverso il portale. Una Newsletter elettronica potrà essere pubblicata nella modalità oggi in voga di rassegna breve con link alla notizia o alla risorsa.</p>
+                <p>Un modo per incrementare accesso e visibilità delle collezioni è l’uso di portali e altri aggregatori, che possono essere internazionali, nazionali o tematici.</p>
+                <p>Molte biblioteche inoltre pubblicizzano le loro collezioni digitali attraverso blog e social network allo scopo di raggiungere organizzazioni e associazioni interessate. Prima di condividere i contenuti con i servizi e gli aggregatori esterni, le biblioteche dovrebbero esaminare attentamente i termini di partecipazione e i diritti legali delle immagini per assicurarsi che non siano in conflitto con le politiche della biblioteca o con altri accordi di collaborazione in atto.</p>
+                <p>Molte collezioni digitali fanno parte di progetti di ricerca più ampi. Le biblioteche possono dotare le collezioni digitali di note, commenti e altre informazioni contestuali importanti per aggiungere valore e renderle maggiormente fruibili. I sistemi attuali di distribuzione dei contenuti digitali offrono la tecnologia necessaria per facilitare la trascrizione, le note di commento e l’analisi delle immagini.</p>
+              </li> 
+            </ul>         
+          </article>
+          <article id="article6" class="mb-3">
+            <h2>Bibliografia</h2>
+              <div class="list-group">
+                <a href="https://www.sublimetext.com/" class="list-group-item list-group-item-action" target="_blank">Sublime Text</a>
+                <a href="https://www.mozilla.org/it/firefox/new/" class="list-group-item list-group-item-action" target="_blank">Mozilla Firefox</a>
+                <a href="https://www.google.it/chrome/index.html" class="list-group-item list-group-item-action" target="_blank">Google Chrome</a>
+                <a href="https://support.microsoft.com/it-it/help/17621/internet-explorer-downloads" class="list-group-item list-group-item-action" target="_blank">Internet Explorer</a>
+                <a href="http://www.opera.com/it" class="list-group-item list-group-item-action" target="_blank">Opera Browser</a>
+                <a href="https://getbootstrap.com/" class="list-group-item list-group-item-action" target="_blank">Bootstrap</a>
+                <a href="https://fontawesome.com/" class="list-group-item list-group-item-action" target="_blank">Font Awesome</a>
+                <a href="https://developer.mozilla.org/it/docs/Web" class="list-group-item list-group-item-action" target="_blank">Mozilla Developer Network</a>
+                <a href="https://www.w3schools.com/default.asp" class="list-group-item list-group-item-action" target="_blank">W3 School</a>
+                <a href="http://www.tei-c.org/index.xml" class="list-group-item list-group-item-action" target="_blank">TEI</a>
+                <a href="http://dublincore.org/" class="list-group-item list-group-item-action" target="_blank">Dublin Core</a>
+                <a href="http://schema.org/" class="list-group-item list-group-item-action" target="_blank">Schema</a>
+                <a href="https://www.google.com/webmasters/" class="list-group-item list-group-item-action" target="_blank">Google Webmaster Tools</a>
+                <a href="https://github.com/" class="list-group-item list-group-item-action" target="_blank">Github</a>
+              </div>
+          </article>
+      </section>
+	  </main><!-- /.container -->
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>        	
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#article1" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Brief &#38; benchmark</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">l'esistente</a>
-              <a class="dropdown-item" href="#">obiettivi e finalità</a>
-              <a class="dropdown-item" href="#">utente tipo</a>
-              <a class="dropdown-item" href="#">competitors</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">struttura &#38; layout</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown02">
-              <a class="dropdown-item" href="#">la mappa dei concetti</a>
-              <a class="dropdown-item" href="#">schema delle dipendenze</a>
-              <a class="dropdown-item" href="#">wireframe della home e di una pagina interna</a>
-              <a class="dropdown-item" href="#">usabilità = comunicazione e web design</a>
-            </div>
-          </li>        	                  	
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+    <footer class="blog-footer">
+      <div class="container">
+        <p>Template built with <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://github.com/ascali82/">Alessandro Scali</a>.</p>
+        <p>
+          <a href="#">Back to top</a>
+        </p>
       </div>
-    </nav>
-
-
-	    <main role="main" class="container">
-
-		    <div class="starter-template">
-		    	<h1>Web Project Plan</h1>
-		    	<p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-
-				<article id="article1">
-					<h2>Brief &#38; benchmark</h2>
-					<ul>
-						<h3>l'esistente</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-						<h3>obiettivi e finalità</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-						<h3>utente tipo</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-						<h3>competitors</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-					</ul>
-				</article>
-
-				<article id="article2">
-					<h2>struttura &#38; layout</h2>
-					<ul>
-						<h3>la mappa dei concetti</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-						<h3>schema delle dipendenze</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-						<h3>wireframe della home e di una pagina interna</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-						<h3>usabilità = comunicazione e web design</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-					</ul>
-				</article>
-
-				<article id="article3">
-					<h2>linguaggi</h2>
-					<ul>
-						<h3>html, css, xml, dublin core</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-					</ul>
-				</article>
-
-				<article id="article4">
-					<h2>collezione</h2>
-					<ul>
-						<h3>descrizione e specimen</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-					</ul>					
-				</article>
-
-				<article id="article5">
-					<h2>strumenti</h2>
-					<ul>
-						<h3>conservazione</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-						<h3>arricchimento</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-						<h3>valorizzazione</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-					</ul>					
-				</article>
-
-				<article id="article6">
-					<h2>bibliografia</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ligula eu lectus facilisis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor a arcu nec facilisis. Vivamus augue erat, laoreet sit amet nisi at, auctor porttitor ipsum. Sed vel nunc at velit eleifend consectetur ac in est. Aliquam hendrerit dictum quam ut tempor. Suspendisse potenti. Phasellus tempor dolor a egestas tempus. Aliquam erat volutpat. Nulla vel sem ex. Pellentesque mattis ligula id leo semper, id congue sem malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas non dolor eu turpis efficitur egestas a id felis.Mauris eros tellus, blandit sed turpis vitae, lobortis rhoncus lectus. Fusce tincidunt hendrerit placerat. Morbi pulvinar feugiat nisl, nec aliquet ante semper id. Nullam facilisis lobortis metus et lacinia. Praesent sapien ex, sagittis nec magna a, tempor dapibus lectus. Donec malesuada eget massa vitae faucibus. Morbi venenatis purus eget urna laoreet, et euismod ante lacinia. Pellentesque quis tellus molestie nulla gravida aliquet. Donec sit amet sollicitudin ligula. Nulla in lorem eu odio pulvinar tempus vel at lorem. Morbi dapibus viverra mi ut aliquam. Cras et mi in turpis iaculis rutrum. Phasellus laoreet mauris ligula. Maecenas id sapien elit. Donec tincidunt lobortis lorem ut dapibus. Cras a vulputate velit.</p>
-				</article>
-		    	
-
-		        
-		    </div>
-
-	    </main><!-- /.container -->
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -150,11 +404,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>	    
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-	    
-	    
-  	</body>
+  </body>
 </html>

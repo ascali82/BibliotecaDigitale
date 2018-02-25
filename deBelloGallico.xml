@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<collezione>
+	<oggetto n="1">
+		<opera>
+			<DC.Title> Commentarii de Bello Gallico</DC.Title>
+			<DC.Creator permalink="caio_giulio_cesare.html">Caio Giulio Cesare</DC.Creator>
+			<DC.Subject>Guerre galliche</DC.Subject>
+			<DC.Publisher>Biblioteca Digitale</DC.Publisher>
+			<DC.Contributor>Alessandro Scali</DC.Contributor>
+			<DC.Date>2018-02-25</DC.Date>
+			<DC.Type>Prosa</DC.Type>
+			<DC.Type>Commentarii</DC.Type>
+			<DC.Format>HTML</DC.Format>
+			<DC.Format>XML</DC.Format>
+			<DC.Identifier scheme="DCTERMS.URI">
+				<URI indirizzo="biblioteca digitale/sub_pages/de_bello_gallico.html"></URI>
+			</DC.Identifier>
+			<DC.Language>Latino</DC.Language>
+			<DC.Relation>Opera 1 Simile</DC.Relation>
+			<DC.Relation>Opera 1 Coeva</DC.Relation>
+			<DC.Rights>
+				<URL indirizzo="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</URL>
+			</DC.Rights>
+		</opera>
+	</oggetto>
+</collezione>
+
